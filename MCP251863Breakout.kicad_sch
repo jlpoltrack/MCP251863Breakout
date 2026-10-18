@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "MCP251863Breakout")
-		(date "2026-09-28")
-		(rev "1.0")
+		(date "2026-10-18")
+		(rev "1.1")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_Square"
@@ -2365,7 +2365,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 132.08) (xy 238.76 129.54)
+			(xy 238.76 135.89) (xy 238.76 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2515,7 +2515,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 76.2) (xy 132.08 76.2)
+			(xy 129.54 76.2) (xy 132.08 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3265,7 +3265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12e3e998-3ea6-4a7b-964d-41afcf276ce5")
-		(property "Reference" "GND1"
+		(property "Reference" "GND"
 			(at 252.73 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3327,7 +3327,7 @@
 		(instances
 			(project "MCP251863Breakout"
 				(path "/66600037-5bc4-450d-9934-9d564be1fa7e"
-					(reference "GND1")
+					(reference "GND")
 					(unit 1)
 				)
 			)
@@ -3478,6 +3478,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C96446"
+			(at 214.63 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c951662d-571e-4d4d-bc58-209435b61e1e")
 		)
@@ -3505,7 +3516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2583c0df-cdb6-47a5-8b9f-814f11a3cb51")
-		(property "Reference" "MOSI1"
+		(property "Reference" "MOSI"
 			(at 252.73 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3567,7 +3578,7 @@
 		(instances
 			(project "MCP251863Breakout"
 				(path "/66600037-5bc4-450d-9934-9d564be1fa7e"
-					(reference "MOSI1")
+					(reference "MOSI")
 					(unit 1)
 				)
 			)
@@ -3575,7 +3586,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 238.76 83.82 0)
+		(at 238.76 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3586,7 +3597,7 @@
 		(fields_autoplaced yes)
 		(uuid "25afb1ac-93ec-42d1-add8-80d76a57693f")
 		(property "Reference" "#PWR015"
-			(at 238.76 87.63 0)
+			(at 238.76 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3597,7 +3608,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 238.76 78.74 0)
+			(at 238.76 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3607,7 +3618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 83.82 0)
+			(at 238.76 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3618,7 +3629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 83.82 0)
+			(at 238.76 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,7 +3640,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 238.76 83.82 0)
+			(at 238.76 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3876,6 +3887,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14663"
+			(at 213.36 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0cb4c399-1948-4119-a0fa-9a3efa1abfcb")
 		)
@@ -3948,6 +3970,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1634"
 			(at 132.08 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4038,6 +4071,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C6186"
+			(at 77.47 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f548a6ac-515e-48ef-9440-466db0a46b95")
 		)
@@ -4068,7 +4112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33dc1956-8d47-4a84-9e47-0f69826b2f57")
-		(property "Reference" "CLKO1"
+		(property "Reference" "CLKO"
 			(at 252.73 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4130,7 +4174,7 @@
 		(instances
 			(project "MCP251863Breakout"
 				(path "/66600037-5bc4-450d-9934-9d564be1fa7e"
-					(reference "CLKO1")
+					(reference "CLKO")
 					(unit 1)
 				)
 			)
@@ -4281,6 +4325,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14663"
+			(at 226.06 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70bbcf42-7572-4505-9a84-8b6ff13a186c")
 		)
@@ -4386,7 +4441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4516aadb-88f8-45ee-b12d-4ca961bfeec7")
-		(property "Reference" "MISO1"
+		(property "Reference" "MISO"
 			(at 252.73 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4448,7 +4503,7 @@
 		(instances
 			(project "MCP251863Breakout"
 				(path "/66600037-5bc4-450d-9934-9d564be1fa7e"
-					(reference "MISO1")
+					(reference "MISO")
 					(unit 1)
 				)
 			)
@@ -4546,7 +4601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e795737-d370-4d4e-9cb4-c0314722cb34")
-		(property "Reference" "PWR1"
+		(property "Reference" "PWR"
 			(at 252.73 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4608,7 +4663,7 @@
 		(instances
 			(project "MCP251863Breakout"
 				(path "/66600037-5bc4-450d-9934-9d564be1fa7e"
-					(reference "PWR1")
+					(reference "PWR")
 					(unit 1)
 				)
 			)
@@ -4671,6 +4726,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C96446"
 			(at 200.66 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5026,7 +5092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60f0a60d-61f4-4396-a842-5f639e49b863")
-		(property "Reference" "SCK1"
+		(property "Reference" "SCK"
 			(at 252.73 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5088,7 +5154,7 @@
 		(instances
 			(project "MCP251863Breakout"
 				(path "/66600037-5bc4-450d-9934-9d564be1fa7e"
-					(reference "SCK1")
+					(reference "SCK")
 					(unit 1)
 				)
 			)
@@ -5151,6 +5217,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 105.41 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1634"
 			(at 105.41 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5266,7 +5343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a6c9a54-01fb-42d5-bab3-9dff1180510d")
-		(property "Reference" "CANL1"
+		(property "Reference" "CANL"
 			(at 252.73 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5328,7 +5405,7 @@
 		(instances
 			(project "MCP251863Breakout"
 				(path "/66600037-5bc4-450d-9934-9d564be1fa7e"
-					(reference "CANL1")
+					(reference "CANL")
 					(unit 1)
 				)
 			)
@@ -5391,6 +5468,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 88.9 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5585,7 +5673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97ba087f-3e8d-46c5-8cd3-015c33021f4c")
-		(property "Reference" "INT2"
+		(property "Reference" "INT"
 			(at 252.73 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5647,7 +5735,7 @@
 		(instances
 			(project "MCP251863Breakout"
 				(path "/66600037-5bc4-450d-9934-9d564be1fa7e"
-					(reference "INT2")
+					(reference "INT")
 					(unit 1)
 				)
 			)
@@ -5710,6 +5798,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 200.66 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5910,6 +6009,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14663"
+			(at 62.23 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da58f6b4-6126-4444-8d6c-0de413482e86")
 		)
@@ -5937,7 +6047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c166dccf-3929-4262-8bdb-62e5c69dac9d")
-		(property "Reference" "CS1"
+		(property "Reference" "CS"
 			(at 252.73 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5999,7 +6109,7 @@
 		(instances
 			(project "MCP251863Breakout"
 				(path "/66600037-5bc4-450d-9934-9d564be1fa7e"
-					(reference "CS1")
+					(reference "CS")
 					(unit 1)
 				)
 			)
@@ -6062,6 +6172,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 50.8 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C96446"
 			(at 50.8 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6301,6 +6422,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22787"
 			(at 170.18 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6572,7 +6704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4e9a067-8056-4695-bcde-0a94882c9cf2")
-		(property "Reference" "CANH1"
+		(property "Reference" "CANH"
 			(at 252.73 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6634,7 +6766,7 @@
 		(instances
 			(project "MCP251863Breakout"
 				(path "/66600037-5bc4-450d-9934-9d564be1fa7e"
-					(reference "CANH1")
+					(reference "CANH")
 					(unit 1)
 				)
 			)
@@ -6642,86 +6774,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9baa12f-8689-4954-8725-0bbd35db9b2a")
-		(property "Reference" "#PWR014"
-			(at 121.92 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9190598d-1244-4c1e-9190-ed26f6173634")
-		)
-		(instances
-			(project "MCP251863Breakout"
-				(path "/66600037-5bc4-450d-9934-9d564be1fa7e"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 238.76 132.08 0)
+		(at 238.76 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6732,7 +6785,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb182291-2a45-4da9-9bc6-558ec7ec0a73")
 		(property "Reference" "#PWR016"
-			(at 238.76 138.43 0)
+			(at 238.76 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6743,7 +6796,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 137.16 0)
+			(at 238.76 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6753,7 +6806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 132.08 0)
+			(at 238.76 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6764,7 +6817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 132.08 0)
+			(at 238.76 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6775,7 +6828,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 132.08 0)
+			(at 238.76 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6854,6 +6907,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C96446"
 			(at 101.6 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6956,6 +7020,318 @@
 				)
 			)
 		)
+	)
+	(label "STBY"
+		(at 129.54 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8281ecf6-1f19-4584-a345-ee9774d81af5")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Square")
+		(at 250.19 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f3b3d67-b810-4e32-b3cc-60d884a6242d")
+		(property "Reference" "STBY"
+			(at 252.73 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Square"
+			(at 252.73 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 255.27 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 250.19 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fb26876-10e4-47ee-9e17-2ce3c92c9de4")
+		)
+		(instances
+			(project "MCP251863Breakout"
+				(path "/66600037-5bc4-450d-9934-9d564be1fa7e"
+					(reference "STBY")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 247.65 125.73) (xy 250.19 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2373e0c9-61d3-4c5d-9e43-3256bf3aabe3")
+	)
+	(label "STBY"
+		(at 247.65 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12dd3af3-8044-4cf4-af9a-2699b33aab18")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Square")
+		(at 250.19 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aac05fff-0a3b-4120-8f13-ab41d863de81")
+		(property "Reference" "GND2"
+			(at 252.73 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Square"
+			(at 252.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 255.27 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 250.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "215927cc-0f65-4907-a98a-0198079c2f29")
+		)
+		(instances
+			(project "MCP251863Breakout"
+				(path "/66600037-5bc4-450d-9934-9d564be1fa7e"
+					(reference "GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 238.76 133.35) (xy 250.19 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3857f6-c6ef-4df8-bbbc-a0036b5bf9fc")
+	)
+	(junction
+		(at 238.76 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4638decc-046f-483f-bad7-d5000244d42e")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Square")
+		(at 250.19 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8de238a9-02f7-4ab5-8a6b-50c0fa7b6c5c")
+		(property "Reference" "PWR2"
+			(at 252.73 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Square"
+			(at 252.73 81.2799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 255.27 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 250.19 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d2fd73e-4dfd-48ac-a3bd-172f68705602")
+		)
+		(instances
+			(project "MCP251863Breakout"
+				(path "/66600037-5bc4-450d-9934-9d564be1fa7e"
+					(reference "PWR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 238.76 78.74) (xy 238.76 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c4be9fa-6e33-450f-b7c6-d84e210b15fb")
+	)
+	(wire
+		(pts
+			(xy 238.76 80.01) (xy 250.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d672c5-7eca-44ad-a0ba-06cc1a1fec07")
+	)
+	(junction
+		(at 238.76 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c4595ad-0b0f-4c98-a424-5dd076972124")
 	)
 	(sheet_instances
 		(path "/"
