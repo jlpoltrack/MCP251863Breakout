@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C10, C12, C4",0603,4,10u,
+"C2, C3, C5, C6, C7",0603,5,100n,
+"C8, C9",0603,2,10p,
+"CANH, CANL, CLKO, CS, GND, INT, INT0, INT1, MISO, MOSI, PWR, SCK",TestPoint_Pad_2.0x2.0mm,12,TestPoint_Square,
+R1,0603,1,120,
+U1,SSOP-28_5.3x10.2mm_P0.65mm,1,MCP251863T-H-SS,
+U2,SOT-223-3_TabPin2,1,AMS1117-3.3,
+Y1,Crystal_SMD_2016-4Pin_2.0x1.6mm,1,Crystal_GND24,
