@@ -1,6 +1,6 @@
 # MCP251863Breakout
 
-A 32 × 32 mm CAN FD breakout: an MCP251863 (CAN FD controller with integrated transceiver) on SPI, with an
+A CAN FD breakout: an MCP251863 (CAN FD controller with integrated transceiver) on SPI, with an
 onboard 3.3 V regulator and 120 Ω termination. All connections are solder pads.
 
 <img src="Render-Front.png" alt="MCP251863Breakout board render, top side" width="400"> <img src="Render-Back.png" alt="MCP251863Breakout board render, bottom side" width="400">
@@ -14,7 +14,7 @@ transceiver-only board.
 - 4-pin crystal (Y1, 2016) for the controller clock
 - AMS1117 3.3 V LDO for VDD/VIO; transceiver VCC from +5V
 - 120 Ω termination resistor, always fitted
-- 2-layer, 1.6 mm PCB, parts on the top side only
+- Parts on the top side only
 
 ## Connections
 
